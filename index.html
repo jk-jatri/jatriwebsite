@@ -26,7 +26,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div class="container-fluid px-5">
 
                 <!-- Brand -->
@@ -42,7 +42,6 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-
                     <!-- Left Menu -->
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 font_B">
                         <li class="nav-item dropdown">
@@ -102,23 +101,23 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item slider_background active" data-bs-interval="10000">
-                    <img src="images/banner.png" class="d-block content_holder_image w-100" alt="...">
-                    <div class="slider_content d-none d-md-block">
-                        <h1 class="font_J">Selling 20,0000+
-                            <br>
-                            tickets</h1>
-                        <p class="font_F">Whether you need a one time services or are looking
-                            <br>
-                            demo title</p>
-                        <button class="main_button">How It Works</button>
+                    <img src="images/banner.png" class="d-block content_holder_image w-100 img-fluid" alt="...">
+                    <div class="slider_caption">
+                        <div class="container slider_content">
+                            <div class="slider_info">
+                                <h1 class="font_J">Selling 20,0000+
+                                    <br>
+                                    tickets</h1>
+                                <p class="font_F">Whether you need a one time services or are looking
+                                    <br>
+                                    demo title</p>
+                                <button class="main_button font_A">How It Works</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="images/banner.png" class="d-block w-100" alt="...">
-                    <!-- <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div> -->
+                    <img src="images/banner.png" class="d-block w-100 img-fluid" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"  data-bs-slide="prev">
@@ -134,97 +133,130 @@
     </header>
 
     <main>
-        <div class="container my-5">
+        <div class="container my-5 py-5">
             <div class="row">
-                <h4>Our Services</h4>
-                <p>Whether you need a one time services or are looking</p>
+               <div class="service_head">
+                    <h4 class="font_I">Our Services</h4>
+                    <p class="font_F">Whether you need a one time services or are looking</p>
+               </div>
             </div>
             <div class="row">
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                            <img src="images/Ticketing-01 1.png" class="card-img-top card_img" alt="...">
-                        <div class="card-body px-0">
-                            <h5 class="card-title">Ticketing</h5>
-                            <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col card_main">
+                        <div class="card h-100 border-0">
+                            <img src="images/Ticketing-01 1.png" class="card-img-top card_img img-fluid" alt="...">
+                            <div class="card-body px-0 service_child">
+                                <h5 class="card-title font_C">Ticketing</h5>
+                                <p class="card-text font_B">We’ve created opportunities for over a million people in the region to earn an income</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="images/Tracking-01 1.png" class="card-img-top card_img" alt="...">
-                        <div class="card-body px-0">
-                            <h5 class="card-title">Tracking</h5>
-                            <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
+                    <div class="col card_main">
+                        <div class="card h-100 border-0">
+                            <img src="images/Tracking-01 1.png" class="card-img-top card_img img-fluid" alt="...">
+                            <div class="card-body px-0 service_child">
+                                <h5 class="card-title font_C">Tracking</h5>
+                                <p class="card-text font_B">We’ve created opportunities for over a million people in the region to earn an income</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="images/Rentals-01 1.png" class="card-img-top card_img" alt="...">
-                        <div class="card-body px-0">
-                            <h5 class="card-title">Rental</h5>
-                            <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
+                    <div class="col card_main">
+                        <div class="card h-100 border-0">
+                            <img src="images/Rentals-01 1.png" class="card-img-top card_img img-fluid" alt="...">
+                            <div class="card-body px-0 service_child">
+                                <h5 class="card-title font_C">Rental</h5>
+                                <p class="card-text font_B">We’ve created opportunities for over a million people in the region to earn an income</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="images/Fleet Management 1.png" class="card-img-top card_img" alt="...">
-                        <div class="card-body px-0">
-                            <h5 class="card-title">Fleet Management</h5>
-                            <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
+                    <div class="col card_main">
+                        <div class="card h-100 border-0">
+                            <img src="images/Fleet Management 1.png" class="card-img-top card_img img-fluid" alt="...">
+                            <div class="card-body px-0 service_child">
+                                <h5 class="card-title font_C">Fleet Management</h5>
+                                <p class="card-text font_B">We’ve created opportunities for over a million people in the region to earn an income</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                    <div class="col">
-                      <div class="card h-100 border-0">
-                        <img src="images/B2B micro Bus-01 1.png" class="card-img-top card_img" alt="...">
-                        <div class="card-body px-0">
-                            <h5 class="card-title">B2B Microbus</h5>
-                            <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
+                    <div class="col card_main">
+                        <div class="card h-100 border-0">
+                            <img src="images/B2B micro Bus-01 1.png" class="card-img-top card_img img-fluid" alt="...">
+                            <div class="card-body px-0 service_child">
+                                <h5 class="card-title font_C">B2B Microbus</h5>
+                                <p class="card-text font_B">We’ve created opportunities for over a million people in the region to earn an income</p>
+                            </div>
                         </div>
-                      </div>
                     </div>
-                  </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download App Start -->
+
+        <div class="app_area pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6">
+                        <img src="images/mobile_application.png" alt="" class="application_image img-fluid">
+                    </div>
+                    <div class="col-sm-6 col-md-6 app_download">
+                        <div class="app_info">
+                            <h2 class="font_I">Download the App</h2>
+                            <p class="font_E">Download now & avail all of our services through the app</p>
+                            <div class="row mt-4">
+                                <div class="col-sm-12 col-md-6 app_detail">
+                                    <p class="font_C">User App</p>
+                                    <a href="#"><img src="images/google-play-badge 1.png" alt="" class="img-fluid"></a>
+                                </div>
+                                <div class="col-sm-12 col-md-6 app_detail">
+                                    <p class="font_C">Bus Owner App</p>
+                                    <a href="#"><img src="images/google-play-badge 1.png" alt="" class="img-fluid"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
 
         <!-- Blog part start -->
 
-        <div class="blog_area py-3">
+        <div class="blog_area py-5 my-5">
             <div class="container">
-                <h2 class="text-center">From the Blog</h2>
+                <h2 class="text-center blog_head font_I">From the Blog</h2>
                 <div class="row my-5">
-                    <div class="col-md-6">
-                        <div class="card h-100 border-0">
-                            <img src="images/Blog-1.png" alt="">
-                            <div class="card-body px-0">
-                                <h5 class="card-title">Rental</h5>
-                                <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
-                                <button>learn more</button>
+                    <div class="col-md-6 col-lg-6 px-sm-0 px-md-2">
+                        <div class="card h-100 card_detail border-0">
+                            <img src="images/Blog-1.png" alt="" class="img-fluid">
+                            <div class="card-body blog_child p-lg-5">
+                                <h5 class="card-title font_G">Empowered 1+ million User
+                                    <br>
+                                    and Demo title</h5>
+                                <p class="card-text font_C">We’ve created opportunities for over a million people in the region to earn an income</p>
+                                <a class="demo_view_more font_C" href="#">Read more</a>
                             </div>
-                          </div>
+                        </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="mt-sm-2 col-md-6 col-lg-6">
                         <div class="row">
-                            <div class="single_blog">
-                                <div>
-                                    <h5 class="card-title">Rental</h5>
-                                    <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
-                                    <button>learn more</button>
+                            <div class="single_blog p-0">
+                                <div class="blog_detail blog_child px-3">
+                                    <h5 class="card-title font_E">Simply Happy
+                                        Customers</h5>
+                                    <p class="card-text font_A">We’ve created opportunities for over a million people in the region to earn an income</p>
+                                    <a class="demo_view_more font_A" href="#">Read more</a>
                                 </div>
-                                <img src="images/blog_2_1.png" alt="">
+                                <img src="images/blog_2_1.png" alt="" class="img-fluid">
                             </div>
                         </div>
                         <div class="row">
-                            <div class="single_blog">
-                                <img src="images/blog_2_1.png" alt="">
-                                <div>
-                                    <h5 class="card-title">Rental</h5>
-                                    <p class="card-text">We’ve created opportunities for over a million people in the region to earn an income</p>
-                                    <button>learn more</button>
+                            <div class="single_blog p-0">
+                                <img src="images/blog_2_2.png" alt="" class="img-fluid">
+                                <div class="blog_detail blog_child px-3">
+                                    <h5 class="card-title font_E">Enjoy the best travel experience</h5>
+                                    <p class="card-text font_A">We’ve created opportunities for over a million people in the region to earn an income</p>
+                                    <a class="demo_view_more font_A" href="#">Read more</a>
                                 </div>
                             </div>
                         </div>
@@ -238,36 +270,39 @@
 
         <div class="demo_area py-3">
             <div class="container">
-                <h2>Learn More demo title</h2>
+                <h2 class="demo_head font_I">Learn More demo title</h2>
 
                 <div class="row my-5">
-                    <div class="col-sm-4">
+                    <div class="col-sm-12 col-md-4">
                         <div class="card demo_card">
-                            <div class="card-body">
-                                <h5 class="card-title">About Us</h5>
-                                <p class="card-text">On the busy streets of Dhaka city, how about 
+                            <div class="card-body demo_card_details">
+                                <i class="fas fa-user-friends"></i>
+                                <h5 class="card-title demo_title font_F">About Us</h5>
+                                <p class="card-text font_K">On the busy streets of Dhaka city, how about 
                                     an app showing the live location of all buses 
                                     inside one map?</p>
                                 <a href="#" class="demo_view_more">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-12 col-md-4">
                         <div class="card demo_card">
-                            <div class="card-body">
-                                <h5 class="card-title">Why Jatri?</h5>
-                                <p class="card-text">On the busy streets of Dhaka city, how about 
+                            <div class="card-body demo_card_details">
+                                <i class="fas fa-user-friends"></i>
+                                <h5 class="card-title demo_title font_F">Why Jatri?</h5>
+                                <p class="card-text font_K">On the busy streets of Dhaka city, how about 
                                     an app showing the live location of all buses 
                                     inside one map?</p>
                                 <a href="#" class="demo_view_more">Learn More</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-12 col-md-4">
                         <div class="card demo_card">
-                            <div class="card-body">
-                                <h5 class="card-title">Newsroom</h5>
-                                <p class="card-text">On the busy streets of Dhaka city, how about 
+                            <div class="card-body demo_card_details">
+                                <i class="fas fa-user-friends"></i>
+                                <h5 class="card-title demo_title font_F">Newsroom</h5>
+                                <p class="card-text font_K">On the busy streets of Dhaka city, how about 
                                     an app showing the live location of all buses 
                                     inside one map?</p>
                                 <a href="#" class="demo_view_more">Learn More</a>
@@ -284,9 +319,9 @@
                 <div class="row">
                     <div class="search-container py-5">
                         <form action="">
-                            <label for="" class="subscribe_label">Sign Up to Ride</label>
+                            <label for="" class="subscribe_label font_H">Sign Up to Ride</label>
                             <br>
-                            <input type="text" class="subscribe_input" placeholder="Enter Email or Phone" name="search">
+                            <input type="text" class="subscribe_input mt-5" placeholder="Enter Email or Phone" name="search">
                             <button class="subscribe_btn" type="submit"><i class="fas fa-arrow-right"></i></button>
                         </form>
                     </div>
@@ -301,16 +336,16 @@
             <div class="container">
                 <div class="col-md-7">
                     <div class="row text-white footer_menu_list py-5">
-                        <div class="col-4">
-                            <img src="images/footer_logo.png" alt="">
+                        <div class="col-4 office_info">
+                            <img src="images/footer_logo.png" alt="" class="img-fluid">
                             <br>
                             <br>
                             <p><a href="mailto:support@jatri.co">support@jatri.co</a></p>
                             <p><a href="tel:+880 1304961431">+880 1304961431</a></p>
                             <p><a href="tel: 0964-2080808"> 0964-2080808</a></p>
                         </div>
-                        <div class="col-4">
-                            <h2>Our Service</h2>
+                        <div class="col-4 ft_menu">
+                            <h2 class="font_D">Our Service</h2>
                             <br>
                             <p><a href="#">Ticketing</a></p>
                             <p><a href="#">Tracking</a></p>
@@ -318,8 +353,8 @@
                             <p><a href="#"> B2C</a></p>
                             <p><a href="#"> Rental Service</a></p>
                         </div>
-                        <div class="col-4">
-                            <h2>Quick Links</h2>
+                        <div class="col-4 ft_menu">
+                            <h2 class="font_D">Quick Links</h2>
                             <br>
                             <p><a href="#">About Us</a></p>
                             <p><a href="#">Why Jatri</a></p>
@@ -338,7 +373,7 @@
         <div class="footer_social_menu footer_part_border">
             <div class="container">
                 <div class="row py-3">
-                    <div class="col-md-6">
+                    <div class="col-sm-6 col-md-5">
                         <a class="ftc_btn" href="#">
                             <i class="fab fa-facebook-f"></i>
                         </a>
@@ -355,14 +390,14 @@
                             <i class="fab fa-linkedin-in"></i>
                         </a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-sm-6 col-md-7">
                         <div class="row text-white">
-                            <div class="col-md-6 footer_app d-flex justify-content-between">
-                                <h3 class="font_C">User App</h3>
+                            <div class="col-sm-12 col-md-6 footer_app">
+                                <p class="font_C">User App</p>
                                 <a href="#"><img src="images/google-play-badge 1.png" alt="" class="img-fluid"></a>
                             </div>
-                            <div class="col-md-6 footer_app d-flex justify-content-between">
-                                <h3 class="font_C">Bus Owner App</h3>
+                            <div class="col-sm-12 col-md-6 footer_app">
+                                <p class="font_C">Bus Owner App</p>
                                 <a href="#"><img src="images/google-play-badge 1.png" alt="" class="img-fluid"></a>
                             </div>
                         </div>
@@ -372,24 +407,32 @@
         </div>
         <div class="footer_quick_menu">
             <div class="container">
-                <div class="row py-3">
-                    <div class="d-flex justify-content-between text-white footer_menu_list">
-                        <p class="font_C">&copy; 2020. All Rights Reserved.</p>
-                        <div class="d-flex justify-content-between  center_element">
-                            <p class="font_C"><a href="#">Terms and Condition</a></p>
-                            <p class="font_C"><a href="#">Privacy Policy</a></p>
+                <div class="pt-3">
+                    <div class="row text-white footer_menu_list">
+                        <div class="col-md-3 order-2  order-md-1">
+                            <p class="font_A copyright_text">&copy; 2020 Jatri. All Rights Reserved.</p>
                         </div>
-                        <ul class="footer_language">
-                            <li class="nav-item dropdown font_C">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    <span><i class="fas fa-globe"></i> English</span>
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                    <li><a class="dropdown-item text-dark" href="#">Bengali</a></li>
-                                </ul>
-                            </li>
-                        </ul>
+                        <div class="col-md-9 order-1 order-md-2">
+                            <div class="row">
+                                <div class="col-md-9 col-sm-9 center_element">
+                                    <p class="font_A"><a href="#">Terms and Condition</a></p>
+                                    <p class="font_A"><a href="#">Privacy Policy</a></p>
+                                </div>
+                                <div class="col-md-3 col-sm-3">
+                                    <ul class="footer_language">
+                                        <li class="nav-item dropdown font_A">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                                data-bs-toggle="dropdown" aria-expanded="false">
+                                                <span><i class="fas fa-globe"></i> English</span>
+                                            </a>
+                                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                                <li><a class="dropdown-item text-dark" href="#">Bengali</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -1,20 +1,430 @@
+/* 
+
+0-575 = xs ; mobile normal view
+576-767 = sm ; mobile landscape
+768-991 = md ; tablet
+992-1199 = lg ; small monitor
+1200 - 1399 =xl ; normal monitor
+1400 - ... =xl ; Extra large monitor
+
+*/
+
 @media only screen and (min-width: 1400px){
 
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1399px){
+    .font_A{
+        font-size: 10px !important;
+    }
+    
+    .font_B{
+        font-size: 13px !important;
+    }
+    
+    .font_C{
+        font-size: 15px !important;
+    }
+    
+    .font_D{
+        font-size: 16px !important;
+    }
+    
+    .font_E{
+        font-size: 18px !important;
+    }
+    
+    .font_F{
+        font-size: 19px !important;
+    }
+    
+    .font_G{
+        font-size: 23px !important;
+    }
+    
+    .font_H{
+        font-size: 28px !important;
+    }
+    
+    .font_I{
+        font-size: 38px !important;
+    }
+    
+    .font_J{
+        font-size: 42px !important;
+    }
+    
+    .font_K{
+        font-size: 14px !important;
+    }
 
+    .subscribe_input::placeholder{
+        font-size: 16px;
+    }
+
+    .card_main{
+        padding: 0 35px 0 0 !important;
+    }
+
+    .application_image{
+        width: 75%;
+    }
+
+    .demo_view_more{
+        font-size: 13px;
+    }
+
+    .office_info p, .ft_menu p {
+        font-size: 11px;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px){
+    .font_A{
+        font-size: 9px !important;
+    }
+    
+    .font_B{
+        font-size: 12px !important;
+    }
+    
+    .font_C{
+        font-size: 14px !important;
+    }
+    
+    .font_D{
+        font-size: 16px !important;
+    }
+    
+    .font_E{
+        font-size: 15px !important;
+    }
+    
+    .font_F{
+        font-size: 16px !important;
+    }
+    
+    .font_G{
+        font-size: 21px !important;
+    }
+    
+    .font_H{
+        font-size: 28px !important;
+    }
+    
+    .font_I{
+        font-size: 35px !important;
+    }
+    
+    .font_J{
+        font-size: 38px !important;
+    }
+    
+    .font_K{
+        font-size: 14px !important;
+    }
 
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+
+    .subscribe_input::placeholder{
+        font-size: 14px;
+    }
+
+    .demo_title{
+        margin-top: 10px;
+    }
+
+    .card_main{
+        padding: 0 35px 0 0 !important;
+    }
+
+    .application_image{
+        width: 75%;
+    }
+
+    .demo_view_more{
+        font-size: 13px;
+    }
+
+    .office_info p, .ft_menu p {
+        font-size: 11px;
+    }
+
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
+    .font_A{
+        font-size: 9px !important;
+    }
+    
+    .font_B{
+        font-size: 12px !important;
+    }
+    
+    .font_C{
+        font-size: 14px !important;
+    }
+    
+    .font_D{
+        font-size: 16px !important;
+    }
+    
+    .font_E{
+        font-size: 15px !important;
+    }
+    
+    .font_F{
+        font-size: 14px !important;
+    }
+    
+    .font_G{
+        font-size: 21px !important;
+    }
+    
+    .font_H{
+        font-size: 28px !important;
+    }
+    
+    .font_I{
+        font-size: 35px !important;
+    }
+    
+    .font_J{
+        font-size: 32px !important;
+    }
+    
+    .font_K{
+        font-size: 14px !important;
+    }
 
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+
+    .subscribe_input::placeholder{
+        font-size: 14px;
+    }
+
+    .demo_title{
+        margin-top: 10px;
+    }
+
+    .card_main{
+        padding: 0 35px 0 0 !important;
+    }
+
+    .application_image{
+        width: 75%;
+    }
+
+    .demo_view_more{
+        font-size: 13px;
+    }
+
+    .office_info p, .ft_menu p {
+        font-size: 11px;
+    }
+
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .font_A{
+        font-size: 9px !important;
+    }
+    
+    .font_B{
+        font-size: 12px !important;
+    }
+    
+    .font_C{
+        font-size: 14px !important;
+    }
+    
+    .font_D{
+        font-size: 16px !important;
+    }
+    
+    .font_E{
+        font-size: 15px !important;
+    }
+    
+    .font_F{
+        font-size: 12px !important;
+    }
+    
+    .font_G{
+        font-size: 21px !important;
+    }
+    
+    .font_H{
+        font-size: 28px !important;
+    }
+    
+    .font_I{
+        font-size: 30px !important;
+    }
+    
+    .font_J{
+        font-size: 24px !important;
+    }
+    
+    .font_K{
+        font-size: 14px !important;
+    }
 
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+
+    .subscribe_input::placeholder{
+        font-size: 14px;
+    }
+
+    .demo_title{
+        margin-top: 10px;
+    }
+
+    .application_image{
+        width: 75%;
+    }
+
+    .demo_view_more{
+        font-size: 13px;
+    }
+
+    .office_info p, .ft_menu p {
+        font-size: 11px;
+    }
+
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .copyright_text{
+        text-align: center;
+    }
+
+    .app_detail p{
+        float: left;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+    .app_detail img{
+        width: 50% !important;
+        float: right;
+    }
+
+    .subscribe_input {
+        width: 50%;
+    }
+
+    .footer_app a img{
+        width: 70% !important;
+    }
+}
+@media only screen and (max-width: 575px){
+    .font_A{
+        font-size: 9px !important;
+    }
+    
+    .font_B{
+        font-size: 12px !important;
+    }
+    
+    .font_C{
+        font-size: 14px !important;
+    }
+    
+    .font_D{
+        font-size: 16px !important;
+    }
+    
+    .font_E{
+        font-size: 15px !important;
+    }
+    
+    .font_F{
+        font-size: 12px !important;
+    }
+    
+    .font_G{
+        font-size: 21px !important;
+    }
+    
+    .font_H{
+        font-size: 28px !important;
+    }
+    
+    .font_I{
+        font-size: 35px !important;
+    }
+    
+    .font_J{
+        font-size: 24px !important;
+    }
+    
+    .font_K{
+        font-size: 14px !important;
+    }
+
+    .subscribe_input,
+    .search-container .subscribe_btn {
+        padding: 5px 15px;
+    }
+
+    .subscribe_input::placeholder{
+        font-size: 14px;
+    }
+
+    .demo_title{
+        margin-top: 10px;
+    }
+
+    .application_image{
+        width: 75%;
+    }
+
+    .demo_view_more{
+        font-size: 13px;
+    }
+
+    .office_info p, .ft_menu p {
+        font-size: 11px;
+    }
+
+    .ftc_btn {
+        margin: 5px 14px 0 0;
+    }
+    .copyright_text{
+        text-align: center;
+    }
+
+    .app_detail p{
+        float: left;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+    .app_detail img{
+        width: 50% !important;
+        float: right;
+    }
+
+    .subscribe_input {
+        width: 50%;
+    }
+
+    .footer_app a img{
+        width: 70% !important;
+    }
 }
 
