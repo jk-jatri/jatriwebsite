@@ -124,6 +124,10 @@ body{
   color: #333;
 }
 
+.services_mobile_view {
+  margin: 0 auto !important;
+}
+
 /* App area start */
 .app_area{
   background-color: #F7F7F7;
