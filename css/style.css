@@ -43,6 +43,20 @@ body{
   outline: 0;
 }
 
+.language_selection .custom-select-trigger{
+  width: 125px !important;
+}
+
+.language_selection .custom-select-trigger::before{
+  content: '\1F310';
+  color: #0F1A4A;
+  filter: grayscale(100%);
+}
+
+.language_selection .custom-select-trigger i{
+  display: block !important;
+}
+
 /* Mobile menu */
 .navbar-light .navbar-toggler{
   border: 0 !important;
