@@ -8,6 +8,11 @@
   src: url(../fonts/Inter-Regular.ttf);
 }
 
+body{
+  font-family: Helvetica Neue !important;
+}
+
+/* Menu Start */
 .brand_image{
   width: 40%;
 }
@@ -15,6 +20,27 @@
 .navbar{
   box-shadow: 0px 2px 13px rgb(0 0 0 / 32%);
   z-index: 1;
+}
+
+.nav-item,
+.nav-item a{
+  font-size: 16px;
+  color: #0F1A4A !important;
+}
+
+.custom-select{
+  margin-top: 6px;
+}
+
+.service_menu{
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.service_menu:focus{
+  outline: 0;
 }
 
 .card_img{
@@ -293,3 +319,31 @@
 .footer_part_border{
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
+.footer_select{
+  background-color: transparent;
+  color: #fff;
+  border: 0;
+}
+
+.footer_select:focus{
+  outline: 0;
+}
+
+.footer_select option{
+  border-radius: 5px;
+  background-color: transparent !important;
+  color: #000;
+  border-bottom: 1px solid #ccc;
+}
+.footer_select option:hover{
+  border-radius: 5px;
+  background-color: #FF6347;
+  color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+/* smooth scrolling */
+html { 
+  scroll-behavior: smooth; 
+} 
