@@ -9,448 +9,357 @@
 
 */
 
-@media only screen and (min-width: 1400px){
-    .footer_app p{
+@media only screen and (min-width: 1400px) {
+    .footer_app p {
         text-align: right;
         margin-top: 13px;
         margin-left: 70px;
     }
 }
 
-@media only screen and (min-width: 1200px) and (max-width: 1399px){
-    .font_A{
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+    .font_A {
         font-size: 10px !important;
     }
-    
-    .font_B{
+    .font_B {
         font-size: 13px !important;
     }
-    
-    .font_C{
+    .font_C {
         font-size: 15px !important;
     }
-    
-    .font_D{
+    .font_D {
         font-size: 16px !important;
     }
-    
-    .font_E{
+    .font_E {
         font-size: 18px !important;
     }
-    
-    .font_F{
+    .font_F {
         font-size: 19px !important;
     }
-    
-    .font_G{
+    .font_G {
         font-size: 23px !important;
     }
-    
-    .font_H{
+    .font_H {
         font-size: 28px !important;
     }
-    
-    .font_I{
+    .font_I {
         font-size: 38px !important;
     }
-    
-    .font_J{
+    .font_J {
         font-size: 42px !important;
     }
-    
-    .font_K{
+    .font_K {
         font-size: 14px !important;
     }
-
-    .subscribe_input::placeholder{
+    .subscribe_input::placeholder {
         font-size: 16px;
     }
-
-    .card_main{
+    .card_main {
         padding: 0 35px 0 0 !important;
     }
-
-    .application_image{
+    .application_image {
         width: 75%;
     }
-
-    .demo_view_more{
+    .demo_view_more {
         font-size: 13px;
     }
-
-    .office_info p, .ft_menu p {
+    .office_info p,
+    .ft_menu p {
         font-size: 11px;
     }
-
-    .footer_app a img{
+    .footer_app a img {
         margin-right: 45px;
     }
-
     .copyright_text {
         margin-top: 5px;
     }
-    
-    .footer_app p{
+    .footer_app p {
         text-align: right;
         margin-top: 13px;
     }
 }
 
-@media only screen and (min-width: 992px) and (max-width: 1199px){
-    .font_A{
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .font_A {
         font-size: 9px !important;
     }
-    
-    .font_B{
+    .font_B {
         font-size: 12px !important;
     }
-    
-    .font_C{
+    .font_C {
         font-size: 14px !important;
     }
-    
-    .font_D{
+    .font_D {
         font-size: 16px !important;
     }
-    
-    .font_E{
+    .font_E {
         font-size: 15px !important;
     }
-    
-    .font_F{
+    .font_F {
         font-size: 16px !important;
     }
-    
-    .font_G{
+    .font_G {
         font-size: 21px !important;
     }
-    
-    .font_H{
+    .font_H {
         font-size: 28px !important;
     }
-    
-    .font_I{
+    .font_I {
         font-size: 35px !important;
     }
-    
-    .font_J{
+    .font_J {
         font-size: 38px !important;
     }
-    
-    .font_K{
+    .font_K {
         font-size: 14px !important;
     }
-
     .subscribe_input,
     .search-container .subscribe_btn {
         padding: 5px 15px;
     }
-
-    .subscribe_input::placeholder{
+    .subscribe_input::placeholder {
         font-size: 14px;
     }
-
-    .demo_title{
+    .demo_title {
         margin-top: 10px;
     }
-
-    .card_main{
+    .card_main {
         padding: 0 35px 0 0 !important;
     }
-
-    .application_image{
+    .application_image {
         width: 75%;
     }
-
-    .demo_view_more{
+    .demo_view_more {
         font-size: 13px;
     }
-
-    .office_info p, .ft_menu p {
+    .office_info p,
+    .ft_menu p {
         font-size: 11px;
     }
-
     .ftc_btn {
         margin: 5px 14px 0 0;
     }
-
     .copyright_text {
         margin-top: 5px;
     }
-
-    .footer_app p{
+    .footer_app p {
         text-align: right;
         margin-top: 13px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px){
-    .font_A{
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .font_A {
         font-size: 9px !important;
     }
-    
-    .font_B{
+    .font_B {
         font-size: 12px !important;
     }
-    
-    .font_C{
+    .font_C {
         font-size: 14px !important;
     }
-    
-    .font_D{
+    .font_D {
         font-size: 16px !important;
     }
-    
-    .font_E{
+    .font_E {
         font-size: 15px !important;
     }
-    
-    .font_F{
+    .font_F {
         font-size: 14px !important;
     }
-    
-    .font_G{
+    .font_G {
         font-size: 21px !important;
     }
-    
-    .font_H{
+    .font_H {
         font-size: 28px !important;
     }
-    
-    .font_I{
+    .font_I {
         font-size: 35px !important;
     }
-    
-    .font_J{
+    .font_J {
         font-size: 32px !important;
     }
-    
-    .font_K{
+    .font_K {
         font-size: 14px !important;
     }
-
     .subscribe_input,
     .search-container .subscribe_btn {
         padding: 5px 15px;
     }
-
-    .subscribe_input::placeholder{
+    .subscribe_input::placeholder {
         font-size: 14px;
     }
-
-    .demo_title{
+    .demo_title {
         margin-top: 10px;
     }
-
-    .application_image{
+    .application_image {
         width: 75%;
     }
-
-    .demo_view_more{
+    .demo_view_more {
         font-size: 13px;
     }
-
-    .office_info p, .ft_menu p {
+    .office_info p,
+    .ft_menu p {
         font-size: 11px;
     }
-
     .ftc_btn {
         margin: 5px 14px 0 0;
     }
-    .footer_social_btn{
+    .footer_social_btn {
         margin-top: 25px;
     }
     .footer_app {
         display: block !important;
         padding-left: 70px !important;
     }
-
-    .copyright_text{
+    .copyright_text {
         margin-top: 5px;
     }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 767px){
-    .font_A{
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .font_A {
         font-size: 9px !important;
     }
-    
-    .font_B{
+    .font_B {
         font-size: 12px !important;
     }
-    
-    .font_C{
+    .font_C {
         font-size: 14px !important;
     }
-    
-    .font_D{
+    .font_D {
         font-size: 16px !important;
     }
-    
-    .font_E{
+    .font_E {
         font-size: 15px !important;
     }
-    
-    .font_F{
+    .font_F {
         font-size: 12px !important;
     }
-    
-    .font_G{
+    .font_G {
         font-size: 21px !important;
     }
-    
-    .font_H{
+    .font_H {
         font-size: 28px !important;
     }
-    
-    .font_I{
+    .font_I {
         font-size: 30px !important;
     }
-    
-    .font_J{
+    .font_J {
         font-size: 24px !important;
     }
-    
-    .font_K{
+    .font_K {
         font-size: 14px !important;
     }
-
-    .service_card{
+    .service_card {
         background: #fff;
         padding: 5px;
         box-shadow: 4px -1px 13px #ddd !important;
     }
-    
-    .demo_card{
+    .demo_card {
         margin-bottom: 15px;
     }
-
     .subscribe_input,
     .search-container .subscribe_btn {
         padding: 5px 15px;
     }
-
-    .subscribe_input::placeholder{
+    .subscribe_input::placeholder {
         font-size: 14px;
     }
-
-    .demo_title{
+    .demo_title {
         margin-top: 10px;
     }
-
-    .application_image{
+    .application_image {
         width: 75%;
     }
-
-    .demo_view_more{
+    .demo_view_more {
         font-size: 13px;
     }
-
-    .office_info p, .ft_menu p {
+    .office_info p,
+    .ft_menu p {
         font-size: 11px;
     }
-
     .ftc_btn {
         margin: 5px 14px 0 0;
     }
-    .copyright_text{
+    .copyright_text {
         text-align: center;
     }
-
-    .app_detail p{
+    .app_detail p {
         float: left;
         margin-top: 7px;
         margin-right: 20px;
     }
-    .app_detail img{
+    .app_detail img {
         width: 50% !important;
         float: right;
     }
-
     .subscribe_input {
         width: 50%;
     }
-
-    .footer_social_btn{
+    .footer_social_btn {
         margin-top: 15px;
     }
-
-    .footer_list{
+    .footer_list {
         text-align: center;
     }
-
     .footer_list li {
         display: inline;
         margin: 0px 20px;
     }
-
-    .footer_app a img{
+    .footer_app a img {
         width: 70% !important;
         margin-top: -20px;
     }
 }
-@media only screen and (max-width: 575px){
-    .font_A{
+
+@media only screen and (max-width: 575px) {
+    .font_A {
         font-size: 9px !important;
     }
-    
-    .font_B{
+    .font_B {
         font-size: 12px !important;
     }
-    
-    .font_C{
+    .font_C {
         font-size: 11px !important;
     }
-    
-    .font_D{
+    .font_D {
         font-size: 16px !important;
     }
-    
-    .font_E{
+    .font_E {
         font-size: 12px !important;
     }
-    
-    .font_F{
+    .font_F {
         font-size: 12px !important;
     }
-    
-    .font_G{
+    .font_G {
         font-size: 21px !important;
     }
-    
-    .font_H{
+    .font_H {
         font-size: 28px !important;
     }
-    
-    .font_I{
+    .font_I {
         font-size: 20px !important;
     }
-    
-    .font_J{
+    .font_J {
         font-size: 19px !important;
     }
-    
-    .font_K{
+    .font_K {
         font-size: 14px !important;
     }
-
-    .slider_info h1{
+    .slider_info h1 {
         line-height: 22px;
     }
-
     .slider_info p {
         line-height: 15px;
     }
-
     .main_button {
         padding: 5px 10px;
     }
-
     .service_head,
-    .demo_head{
+    .demo_head {
         text-align: center;
     }
-
     .service_child p {
         text-align: justify;
         line-height: 15px;
@@ -458,82 +367,73 @@
     .service_child h5 {
         font-weight: bold;
     }
-
-    .services_mobile_view{
+    .services_mobile_view {
         margin: 0 auto !important;
     }
-
-    .service_card{
+    .service_card {
         background: #fff;
         padding: 5px;
         box-shadow: 4px -1px 13px #ddd !important;
     }
-
-    .demo_card{
+    .demo_card {
         margin-bottom: 15px;
     }
-
     .subscribe_input,
     .search-container .subscribe_btn {
         padding: 5px 15px;
     }
-
-    .subscribe_input::placeholder{
+    .subscribe_input::placeholder {
         font-size: 14px;
     }
-
-    .demo_title{
+    .demo_title {
         margin-top: 10px;
     }
-
-    .application_image{
+    .application_image {
         width: 75%;
     }
-
-    .demo_view_more{
+    .demo_view_more {
         font-size: 13px;
     }
-
-    .office_info p, .ft_menu p {
+    .office_info p,
+    .ft_menu p {
         font-size: 11px;
     }
-
     .ftc_btn {
         margin: 5px 14px 0 0;
     }
-    .copyright_text{
+    .copyright_text {
         text-align: center;
     }
-
-    .app_detail p{
-        float: left;
-        margin-top: 7px;
-        margin-right: 20px;
+    .app_detail {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5px 0;
     }
-    .app_detail img{
-        width: 30% !important;
+    .app_detail p {
+        margin: 0;
+    }
+    .app_detail img {
+        width: 50% !important;
         float: right;
     }
-
     .subscribe_input {
         width: 50%;
     }
-
-    .footer_app_links{
+    .footer_app_links {
         margin-top: 15px !important;
     }
-
-    .footer_list{
+    .footer_list {
         text-align: center;
     }
-
     .footer_list li {
         display: inline;
         margin: 0px 20px;
     }
-
-    .footer_app a img{
+    .footer_app a img {
         width: 70% !important;
     }
+    .footer_app p {
+        margin-top: 15px;
+    }
 }
-
