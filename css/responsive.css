@@ -1,6 +1,6 @@
 /* 
 
-0-575 = xs ; mobile normal view
+0-575 = xs ; mobile Potrait
 576-767 = sm ; mobile landscape
 768-991 = md ; tablet
 992-1199 = lg ; small monitor
@@ -50,6 +50,18 @@
     }
     .font_K {
         font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 38px !important;
+    }
+    .font_M {
+        font-size: 27px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 165px;
     }
     .subscribe_input::placeholder {
         font-size: 16px;
@@ -112,6 +124,21 @@
     }
     .font_K {
         font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 38px !important;
+    }
+    .font_M {
+        font-size: 27px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 150px;
+    }
+    .demo_head {
+        margin-top: -8%;
     }
     .subscribe_input,
     .search-container .subscribe_btn {
@@ -182,6 +209,21 @@
     .font_K {
         font-size: 14px !important;
     }
+    .font_L {
+        font-size: 35px !important;
+    }
+    .font_M {
+        font-size: 23px !important;
+    }
+    .input_field::placeholder {
+        font-size: 13px;
+    }
+    .contact_us_head {
+        height: 135px;
+    }
+    .demo_head {
+        margin-top: -12%;
+    }
     .subscribe_input,
     .search-container .subscribe_btn {
         padding: 5px 15px;
@@ -251,6 +293,24 @@
     .font_K {
         font-size: 14px !important;
     }
+    .font_L {
+        font-size: 30px !important;
+    }
+    .font_M {
+        font-size: 22px !important;
+    }
+    .input_field::placeholder {
+        font-size: 12px;
+    }
+    .contact_child {
+        margin-bottom: 20px;
+    }
+    .contact_us_head {
+        height: 135px;
+    }
+    .demo_head {
+        margin-top: -15%;
+    }
     .service_card {
         background: #fff;
         padding: 5px;
@@ -282,7 +342,8 @@
     .ftc_btn {
         margin: 5px 14px 0 0;
     }
-    .copyright_text {
+    .copyright_text,
+    .demo_head {
         text-align: center;
     }
     .app_detail p {
@@ -346,6 +407,24 @@
     }
     .font_K {
         font-size: 14px !important;
+    }
+    .font_L {
+        font-size: 30px !important;
+    }
+    .font_M {
+        font-size: 22px !important;
+    }
+    .input_field::placeholder {
+        font-size: 12px;
+    }
+    .contact_child {
+        margin-bottom: 20px;
+    }
+    .contact_us_head {
+        height: 125px;
+    }
+    .demo_head {
+        margin-top: -15%;
     }
     .slider_info h1 {
         line-height: 22px;
