@@ -13,7 +13,7 @@ body {
 }
 
 
-/* Menu Start */
+/* Navbar Menu Start */
 
 .brand_image {
     width: 40%;
@@ -75,6 +75,9 @@ body {
 .navbar-light .navbar-toggler-icon:focus {
     background-image: url(../images/cross.svg) !important;
 }
+
+
+/* Slider start */
 
 .card_img {
     background: rgba(255, 99, 71, 0.1);
@@ -238,15 +241,14 @@ body {
 
 .demo_view_more {
     background-color: transparent;
-    border-bottom: 1px solid #c4c4c4;
     color: #333333;
-    text-decoration: none;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .demo_view_more:hover {
     color: #FF6347;
-    border-bottom: 1px solid #FF6347;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 
@@ -391,7 +393,7 @@ html {
 }
 
 
-/* =============Contact Us page Start=========== */
+/* ============= Contact Us page Start =========== */
 
 .corporate_bg_color {
     background-color: #FF6347;
@@ -505,4 +507,77 @@ html {
 .input_field::placeholder {
     color: 868E96;
     font-size: 16px;
+}
+
+
+/* ============= Newsroom page Start =========== */
+
+.newsroom_banner {
+    position: relative;
+}
+
+.newsroom_banner img {
+    width: 100%;
+}
+
+.newsroom_banner .banner_content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    background-color: #61606064;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsroom_single_card:hover {
+    box-shadow: 0px 6px 11px 2px rgb(0 0 0 / 18%);
+    /* box-shadow: 0px 17px 38px rgba(0, 0, 0, 0.13); */
+    transition: 0.4s;
+}
+
+.newsroom_single_card:hover .card-title {
+    color: #FF6347;
+}
+
+.newsroom_single_card:hover .blog_child {
+    background-color: #fff;
+}
+
+.blog_date {
+    color: #333333;
+}
+
+
+/* ============== Newsroom details page start ============ */
+
+.blog_share_mobile ul {
+    list-style: none;
+}
+
+.blog_share_mobile ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+.blog_share_mobile ul li a {
+    color: #666;
+}
+
+.blog_share_laptop ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 68%;
+}
+
+.blog_share_laptop ul li {
+    margin-bottom: 10px;
+}
+
+.blog_share_laptop ul li a {
+    color: #666;
+    margin-bottom: 10px;
 }

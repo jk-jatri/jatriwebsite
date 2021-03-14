@@ -89,6 +89,9 @@
         text-align: right;
         margin-top: 13px;
     }
+    .blog_share_laptop ul {
+        margin-top: 45%;
+    }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -173,6 +176,9 @@
         text-align: right;
         margin-top: 13px;
     }
+    .blog_share_laptop ul {
+        margin-top: 74%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -256,6 +262,9 @@
     }
     .copyright_text {
         margin-top: 5px;
+    }
+    .blog_share_laptop ul {
+        margin-top: 90%;
     }
 }
 
@@ -514,5 +523,8 @@
     }
     .footer_app p {
         margin-top: 15px;
+    }
+    .blog_child h5 {
+        font-weight: 600;
     }
 }
