@@ -266,6 +266,9 @@
     .blog_share_laptop ul {
         margin-top: 90%;
     }
+    .position_head {
+        text-align: center;
+    }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
@@ -352,7 +355,8 @@
         margin: 5px 14px 0 0;
     }
     .copyright_text,
-    .demo_head {
+    .demo_head,
+    .position_head {
         text-align: center;
     }
     .app_detail p {
@@ -511,7 +515,8 @@
     .footer_app_links {
         margin-top: 15px !important;
     }
-    .footer_list {
+    .footer_list,
+    .position_head {
         text-align: center;
     }
     .footer_list li {

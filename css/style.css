@@ -527,7 +527,7 @@ html {
     width: 100%;
     height: 100%;
     color: #fff;
-    background-color: #61606064;
+    background-color: #15141433;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -580,4 +580,253 @@ html {
 .blog_share_laptop ul li a {
     color: #666;
     margin-bottom: 10px;
+}
+
+
+/* ============== Career page start ============ */
+
+.job_positions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C9CDD1;
+    padding: 10px 20px 5px 15px !important;
+}
+
+.job_positions:hover {
+    background-color: #F7F7F7;
+    border-radius: 5px;
+    transition: 0.2s;
+    cursor: context-menu;
+}
+
+.job_title {
+    padding-left: 12px;
+}
+
+.job_title h4 {
+    color: #212529;
+}
+
+.job_title ul {
+    padding-left: 0;
+}
+
+.job_title ul li {
+    display: inline;
+    color: #666;
+}
+
+.job_title ul li::after {
+    content: '•';
+    margin: 0 5px 0 10px;
+    font-size: 17px;
+}
+
+.job_title ul li:last-child::after {
+    content: '•';
+    display: none !important;
+}
+
+.apply_btn {
+    color: #868E96;
+    border: 1px solid #E5E5E5;
+    border-radius: 4px;
+    padding: 5px 22px;
+    line-height: 25px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+.apply_btn:hover {
+    color: #FFF;
+    border: 1px solid #FF6347;
+    background-color: #FF6347;
+    transition: 0.4s;
+}
+
+.job_status {
+    background-color: rgba(255, 60, 60, 0.1);
+    color: #FF3C3C !important;
+    font-size: 12px !important;
+    font-weight: 500 !important;
+}
+
+
+/* ============== Job Description page start ============ */
+
+.job_description_banner {
+    background-color: #E9EBEF;
+    height: 300px;
+}
+
+.apply_default_btn {
+    color: #FFF;
+    border: 1px solid #FF6347;
+    background-color: #FF6347;
+    border-radius: 4px;
+    padding: 5px 22px;
+    text-decoration: none;
+}
+
+.apply_default_btn:hover {
+    color: #FF6347;
+    border: 1px solid #FF6347;
+    line-height: 25px;
+    background-color: #fff;
+    transition: 0.4s;
+}
+
+.breadcrumb_menu {
+    border-bottom: 1px solid #E9EBEF;
+}
+
+.breadcrumb_menu_list ol li a {
+    text-decoration: none !important;
+    color: #666;
+}
+
+.breadcrumb_menu_list ol li:hover a {
+    cursor: pointer;
+}
+
+.breadcrumb_menu_list ol li.active a {
+    color: #FF6347;
+}
+
+
+/* ============== Job Application form page start ============ */
+
+.drop-zone {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 1.5px dashed #BFBFBF;
+    border-radius: 10px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: #FF6347;
+    font-size: 14px;
+    text-align: center;
+}
+
+.browse_btn {
+    color: #FF6347;
+}
+
+.browse_btn:hover,
+.upload_instruction {
+    color: #BFBFBF;
+}
+
+.required::after {
+    content: '*';
+    color: #FF6347;
+    margin-left: 3px;
+}
+
+.apply_submit_default_btn {
+    color: #FFF;
+    border: 1px solid #C9CDD1;
+    background-color: #C9CDD1;
+    border-radius: 4px;
+    padding: 5px 22px;
+    text-decoration: none;
+}
+
+.apply_submit_default_btn:hover {
+    color: #FFF;
+    border: 1px solid #FF6347;
+    line-height: 25px;
+    background-color: #FF6347;
+    transition: 0.4s;
+}
+
+
+/* sweet alert */
+
+.swal-button:not([disabled]):hover {
+    background-color: #ff6347;
+}
+
+.swal-button:active {
+    background-color: #ff6347;
+}
+
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled),
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.swal-button:focus {
+    outline: none;
+}
+
+.swal-button {
+    background-color: #ff6347;
+    padding: 5px 15px;
+    margin: 0;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
+}
+
+.swal-icon--success__ring {
+    width: 80px;
+    height: 80px;
+    border: 4px solid rgba(255, 55, 69, 0.2)
+}
+
+.swal-icon--success {
+    border-color: #FF6347;
+}
+
+.swal-icon--success__line {
+    height: 5px;
+    background-color: #FF6347;
+}
+
+
+/* Selector */
+
+::selection {
+    background-color: #FF6347;
+    color: #fff;
 }
