@@ -79,10 +79,6 @@ body {
 
 /* Slider start */
 
-.card_img {
-    background: rgba(255, 99, 71, 0.1);
-}
-
 .content_holder_image {
     position: relative;
 }
@@ -138,6 +134,7 @@ body {
 .service_head h4,
 .service_child h5 {
     color: #0F1A4A;
+    font-weight: bold;
 }
 
 .service_head p {
@@ -150,6 +147,28 @@ body {
 
 .services_mobile_view {
     margin: 0 auto !important;
+}
+
+.services_mobile_view a {
+    text-decoration: none;
+}
+
+.card_image {
+    background: rgba(255, 99, 71, 0.1);
+    height: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_image img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.card_img {
+    background: rgba(255, 99, 71, 0.1);
 }
 
 
@@ -590,7 +609,11 @@ html {
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #C9CDD1;
-    padding: 10px 20px 5px 15px !important;
+    padding: 20px 20px 10px 10px !important;
+}
+
+.job_positions:last-child {
+    border-bottom: none;
 }
 
 .job_positions:hover {
@@ -769,16 +792,19 @@ html {
     text-decoration: none;
 }
 
-.apply_submit_default_btn:hover {
+.apply_submit_default_btn:hover,
+.apply_submit_default_btn:focus {
+    cursor: pointer;
     color: #FFF;
     border: 1px solid #FF6347;
     line-height: 25px;
     background-color: #FF6347;
     transition: 0.4s;
+    outline: 0;
 }
 
 
-/* sweet alert */
+/* Sweet Alert */
 
 .swal-button:not([disabled]):hover {
     background-color: #ff6347;
@@ -821,6 +847,30 @@ button:not(:disabled) {
 .swal-icon--success__line {
     height: 5px;
     background-color: #FF6347;
+}
+
+
+/* ============== Service Details page start ============ */
+
+.service_image {
+    background: rgba(255, 99, 71, 0.1);
+    height: 400px;
+}
+
+.service_image img {
+    width: 30%;
+}
+
+.service_title {
+    color: #0F1A4A;
+}
+
+.service_details {
+    color: #717171;
+}
+
+.service_description {
+    margin-top: 5%;
 }
 
 
