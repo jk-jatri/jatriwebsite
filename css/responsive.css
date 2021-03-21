@@ -154,6 +154,12 @@
     .service_image img {
         width: 50%;
     }
+    .description_category h4 {
+        font-weight: bold;
+    }
+    .job_title ul {
+        padding-right: 10px;
+    }
 }
 
 
@@ -282,6 +288,9 @@
     .service_image img {
         width: 45%;
     }
+    .description_category h4 {
+        font-weight: bold;
+    }
 }
 
 
@@ -384,6 +393,9 @@
     .service_image img {
         width: 40%;
     }
+    .description_category h4 {
+        font-weight: bold;
+    }
 }
 
 
@@ -473,6 +485,9 @@
     }
     .blog_share_laptop ul {
         margin-top: 74%;
+    }
+    .description_category h4 {
+        font-weight: bold;
     }
 }
 
